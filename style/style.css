@@ -1,0 +1,311 @@
+html ,body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#panel {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0px; 
+    background: url(../img/sampul.jpg)no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#isi {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    /* border: 1px solid red; */
+}
+
+#tiket {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0px; 
+}
+
+.panel-tiket {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+#menu {
+    height: 20%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0px; 
+    background-color: #ECEC21;
+}
+
+#menu-panel {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+}
+
+.club {
+    padding-top: 20px;
+    height: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+#info {
+    border-top: 1.5px solid #E7E0E0;
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0px;
+    text-align: center;
+}
+
+#panel-info {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+#img {
+    width: 220px;
+    height: 160px;
+}
+
+.kiri {
+    float: left;
+    text-align: center
+    /* border: 1px solid red; */
+}
+
+.kiri h1 {
+    font-size: 200px;
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.control {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 290px;
+    max-width: none;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.kanan {
+    width: 30%;
+    /* border: 1px solid red; */
+    float: right;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    height: 400px;
+}
+
+.app {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.head {
+    background-color: red;
+}
+
+
+#footer {
+    border-top: 2px solid #C9A507;
+    padding-top: 30px;
+    height: 43%;
+    background-color: #ECEC21;
+    color: #313131;
+    list-style: none; 
+}
+
+#footer ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer ul li {
+    list-style: none; 
+}
+
+.icon-foo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#ticket-icon-foo {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 575.98px) { 
+    .kanan {
+        width: 100%;
+    }
+    #footer {
+        border-top: 2px solid #C9A507;
+        padding-top: 30px;
+        height: 100%;
+        background-color: #ECEC21;
+        color: #313131;
+        list-style: none;
+        text-align: center; 
+    }
+
+    #footer h4 {
+        padding-top: 40px;
+    }
+
+    .icon-foo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    #ticket-icon-foo {
+        width: 50px;
+        height: 50px;
+    }
+ }
+
+@media(max-width: 760px){
+    .kiri h1 {
+        font-size: 100px;
+    }
+
+    .control {
+        display: none;
+    }
+
+    .kanan {
+        width: 100%;
+    }
+
+    .app {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footer {
+        border-top: 2px solid #C9A507;
+        padding-top: 30px;
+        height: 100%;
+        background-color: #ECEC21;
+        color: #313131;
+        list-style: none;
+        text-align: center; 
+    }
+
+    #footer h4 {
+        padding-top: 40px;
+    }
+
+    .icon-foo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    #ticket-icon-foo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .kanan {
+        width: 100%;
+    }
+    .app {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footer {
+        border-top: 2px solid #C9A507;
+        padding-top: 30px;
+        height: 100%;
+        background-color: #ECEC21;
+        color: #313131;
+        list-style: none;
+        text-align: center; 
+    }
+
+    #footer h4 {
+        padding-top: 40px;
+    }
+
+    .icon-foo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    #ticket-icon-foo {
+        width: 50px;
+        height: 50px;
+    }
+ }
+
+ @media (max-width: 1199.98px) { 
+    .kanan {
+        width: 100%;
+    }
+    .app {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footer {
+        border-top: 2px solid #C9A507;
+        padding-top: 30px;
+        height: 100%;
+        background-color: #ECEC21;
+        color: #313131;
+        list-style: none;
+        text-align: center; 
+    }
+
+    #footer h4 {
+        padding-top: 40px;
+    }
+
+    .icon-foo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    #ticket-icon-foo {
+        width: 50px;
+        height: 50px;
+    }
+  }

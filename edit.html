@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ETFOM | Edit pembelian</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<section id="tiket">
+    <div class="panel-tiket">
+    <div class="container">
+        <h1 style="text-align:center">PERBARUHI PEMBELIAN TIKET</h1>
+    </div>
+    <section>
+        <div class="app">
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-12">
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nama anda">
+                    </div>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nomor HP">
+                    </div>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Alamat">
+                    </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                    <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect02">
+                    <option selected>Tribun dan harga..</option>
+                    <option value="barat">Barat Rp. 35.000,-</option>
+                    <option value="timur">Timur Rp. 25.000,-</option>
+                    <option value="selatan">Selatan Rp. 15.000,-</option>
+                    <option value="utara">Utara Rp. 10.000,-</option>
+                    </select>
+                    </div>
+                    </div>
+                    <div class="col-sm">
+                    <div class="input-group mb-3">
+                    <input type="number" class="form-control" placeholder="Banyak tiket" min="0">
+                    </div>                   
+                    </div>
+                    <div class="col-sm">
+                    <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#tampil" >Perbaruhi</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    </div>
+</section>
+<!-- modal pop up -->
+<div class="modal fade" id="tampil" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Data Pemeblian diperbaruhi</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            Total yang harus dibayar adalah
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" >Oke</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"><h4>
+                Komunikasi</h4>         <ul>
+                <li>Layanan Pelanggan</li>
+                <li>E-Mail</li>
+                </ul></div>
+                <div class="col-sm-4"><h4>
+                Jelajahi</h4>                <li>Tentang ETFOM</li>
+                <li>Tim kami</li>
+                <li>Blog</li>
+                </ul></div>
+                <div class="col-sm-4"><h4>
+                Sosial Media</h4>             <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Whatsapp</li>
+                <li>Youtube</li>
+                </ul></div>
+            </div>
+        </div>
+        <div class="icon-foo">
+                <img src="img/ticket_icon.png" id="ticket-icon-foo">
+            </div>
+            BETA VER 0.0.1 made with love by Salahudin Al Ayubi and team.
+    </section>
+</body>
+</html>
